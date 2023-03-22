@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!--first navbar starts-->
+      <nav
+        class="navbar navbar-expand-lg navbar-light d-none d-lg-block"
+        id="firstnavbar"
+      >
+        <div class="container-lg">
+          <a href="#" class="navbar-brand">
+            <img
+              src="images/Your_health_we_care-removebg-preview.png"
+              alt=""
+              height="100px"
+            />
+          </a>
+          <ul class="navbar-nav">
+            <li
+              class="nav-item px-3"
+              style="border-right: 1px solid rgb(211, 206, 206);"
+            >
+              <a href="#" class="nav-link"
+                ><i
+                  class="fa-solid fa-phone"
+                  style="color: rgb(38, 38, 177);"
+                ></i>
+                +95 94566679887</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a href="#" class="nav-link"
+                ><i
+                  class="fa-solid fa-envelope-open"
+                  style="color: rgb(38, 38, 177);"
+                ></i>
+                contact@nationcaremedical.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--first navbar ends-->
+
+      <!--second navbar starts-->
+      <nav class="navbar navbar-expand-lg navbar-light py-4">
+        <div class="container-lg">
+          <a href="#" class="navbar-brand d-lg-none d-block">
+            <img
+              src="images/Your_health_we_care-removebg-preview.png"
+              alt=""
+              height="100px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#secnavcollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="secnavcollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link">Contact us</a>
+              </li>
+              <li class="nav-item px-3 d-lg-none d-block">
+                <a
+                  href="#"
+                  class="nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#loginform"
+                  >Log in / Register</a
+                >
+              </li>
+            </ul>
+          </div>
+          <a
+            href="#"
+            class="btn btn-primary op rounded-pill px-3 d-none d-lg-block"
+            data-bs-toggle="modal"
+            data-bs-target="#loginform"
+            >Log in / Register</a
+          >
+        </div>
+      </nav>
+      <!--second navbar-ends-->
+
+      <!--log in form starts-->
+      <div
+        class="modal moal-dialog-scrollable"
+        id="loginform"
+        data-bs-backdrop="static"
+      >
+        <div class="modal-dialog modal-md">
+          <div class="modal-content">
+            <div class="modal-header form-header">
+              <h3 class="w-100 modal-title text-center text-white">
+                Register Now
+              </h3>
+              <button class="loginclose" data-bs-dismiss="modal">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="modal-body form-fill">
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div>
+                      <label for="" class="form-label">First name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="First name"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div>
+                      <label for="" class="form-label">Last name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Last name"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="" class="form-label">Enter your email</label>
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="email address"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="" class="form-label">Type your password</label>
+                    <input
+                      type="password"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="Enter password"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="" class="form-label"
+                      >Confirm your password</label
+                    >
+                    <input
+                      type="password"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="Enter password again"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer d-flex justify-content-between form-close">
+              <button class="btn btn-primary" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button class="btn btn-primary">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--log in form ends-->
+
+      <!--banner starts-->
+      <div
+        class="carousel slide d-none d-md-block"
+        id="myslide1"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/banner1.png" alt="" width="100%" height="600px" />
+            <div class="layer-on-image">
+              <div class="text-on-image1">
+                <h1 class="text-primary">15% Off on</h1>
+                <h2>Hand Sanitizers</h2>
+                <p>
+                  Make sure your hands are cleanwith the best quality sanitizers
+                </p>
+                <button class="btn btn-primary rounded-pill px-3">
+                  Order Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/banner2.png" alt="" width="100%" height="600px" />
+            <div class="layer-on-image">
+              <div class="text-on-image1">
+                <h1 class="text-primary">15% Off on</h1>
+                <h2>Hand Sanitizers</h2>
+                <p>
+                  Make sure your hands are cleanwith the best quality sanitizers
+                </p>
+                <button class="btn btn-primary rounded-pill px-3">
+                  Order Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/banner3.png" alt="" width="100%" height="600px" />
+            <div class="layer-on-image">
+              <div class="text-on-image1">
+                <h1 class="text-primary">15% Off on</h1>
+                <h2>Hand Sanitizers</h2>
+                <p>
+                  Make sure your hands are cleanwith the best quality sanitizers
+                </p>
+                <button class="btn btn-primary rounded-pill px-3">
+                  Order Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev slider-control-button"
+            data-bs-target="#myslide1"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next slider-control-button"
+            data-bs-target="#myslide1"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <!--banner ends-->
+    </header>
+    <!--header ends-->
+
+    <!--Body contents starts-->
+    <div class="container-md my-5 main-body-content1">
+      <div class="row">
+        <div class="col-md-8 position-relative">
+          <img src="images/image1.jpg" alt="" class="w-100" height="220px" />
+          <div class="imgontext">
+            <h3>Ear Thermometer</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
+              ipsum voluptates
+            </p>
+            <button class="btn btn-primary rounded-pill px-3">Order Now</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="textbox1 p-4" style="color: white;">
+            <h3>Free Shiping</h3>
+            <h2>35% OFF</h2>
+            <p style="color: white;">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
+              ipsum voluptates
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row my-4">
+        <div class="col-md-4">
+          <div class="textbox2 p-3" style="color: white;">
+            <h3>Trusted Brand</h3>
+            <p style="color: white;">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <ul style="list-style-type: square;">
+              <li>Huge Selection</li>
+              <li>Always low price</li>
+              <li>Fast Shipping</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-8 position-relative">
+          <img src="images/image2.jpg" alt="" class="w-100" height="220px" />
+          <div class="imgontext">
+            <h3>Stethoscope</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
+              ipsum voluptates
+            </p>
+            <button class="btn btn-primary rounded-pill px-3">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md my-5 main-body-content2 text-center">
+      <h2>Featured Products</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero ipsum
+        voluptates <br />Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit
+      </p>
+      <div class="row my-4">
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image3.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">Thermometer</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image4.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">Hand Gloves</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image5.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">Test Kit</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image6.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">N95 Mask</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+      </div>
+      <div class="row my-4">
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image3.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">Thermometer</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image4.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">Hand Gloves</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image5.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">Test Kit</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="item-test">
+            <img src="images/image6.png" alt="" class="w-100" height="220px" />
+
+            <div class="item-overlay">
+              <button class="view-detail-btn">View Detail</button>
+              <button class="add-cart-btn">Add to cart</button>
+            </div>
+          </div>
+          <h5 class="my-4">N95 Mask</h5>
+          <h4 class="my-3 text-primary">30000 MMK</h4>
+        </div>
+      </div>
+
+      <button class="btn btn-primary rounded-pill px-4">See More</button>
+    </div>
+    <div class="position-relative">
+      <img
+        src="images/img-thumbnail.png"
+        alt=""
+        class="img-thumbnail img-fluid"
+        width="100%"
+        height="600px"
+      />
+      <div class="text-on-image2 position-absolute d-md-block d-none">
+        <h1 class="text-white" style="font-size: 60px;">
+          In Life,<br />We Care
+        </h1>
+        <button class="btn text-white rounded-pill px-3 get-in-touch">
+          Get In Touch
+        </button>
+      </div>
+    </div>
+    <div
+      class="container-md d-md-none d-block text-center"
+      style="background-color: rgb(0, 217, 255); padding: 20px;"
+    >
+      <h1 class="text-white">In Life, We Care</h1>
+      <button class="btn text-white btn-primary rounded-pill px-3">
+        Get In Touch
+      </button>
+    </div>
+
+    <div class="container-md my-4 text-center main-body-content3">
+      <h3 class="my-5">Our Products</h3>
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item active">
+              <button
+                class="nav-link active btn btn-primary rounded-pill px-3 m-2"
+                data-bs-toggle="tab"
+                data-bs-target="#pane1"
+              >
+                Medical Equip
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link btn btn-primary rounded-pill px-3 m-2"
+                data-bs-toggle="tab"
+                data-bs-target="#pane2"
+              >
+                Laboratory Equip
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link btn btn-primary rounded-pill px-3 m-2"
+                data-bs-toggle="tab"
+                data-bs-target="#pane3"
+              >
+                Medical Equip
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link btn btn-primary rounded-pill px-3 m-2"
+                data-bs-toggle="tab"
+                data-bs-target="#pane4"
+              >
+                Medical Equip
+              </button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link btn btn-primary rounded-pill px-3 m-2"
+                data-bs-toggle="tab"
+                data-bs-target="#pane5"
+              >
+                Medical Equip
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="pane1">
+              <div class="container-md my-5 main-body-content2 text-center">
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <button class="btn btn-primary rounded-pill px-4">
+                  See More>>>
+                </button>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pane2">
+              <div class="container-md my-5 main-body-content2 text-center">
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <button class="btn btn-primary rounded-pill px-4">
+                  See More>>>
+                </button>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pane3">
+              <div class="container-md my-5 main-body-content2 text-center">
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <button class="btn btn-primary rounded-pill px-4">
+                  See More>>>
+                </button>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pane4">
+              <div class="container-md my-5 main-body-content2 text-center">
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <button class="btn btn-primary rounded-pill px-4">
+                  See More>>>
+                </button>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pane5">
+              <div class="container-md my-5 main-body-content2 text-center">
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <div class="row my-4">
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image3.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Thermometer</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image4.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Hand Gloves</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image5.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">Test Kit</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="item-test">
+                      <img src="images/image6.png" alt="" class="w-100" height="220px" />
+          
+                      <div class="item-overlay">
+                        <button class="view-detail-btn">View Detail</button>
+                        <button class="add-cart-btn">Add to cart</button>
+                      </div>
+                    </div>
+                    <h5 class="my-4">N95 Mask</h5>
+                    <h4 class="my-3 text-primary">30000 MMK</h4>
+                  </div>
+                </div>
+                <button class="btn btn-primary rounded-pill px-4">
+                  See More>>>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="position-relative">
+      <img src="images/image7.jpg" alt="" width="100%" />
+      <div class="text-on-image3 position-absolute daily-deal1">
+        <h1 class="text-primary">Hurry Up</h1>
+        <h2>Daily Deal Of The Day</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+          officiis eveniet delectus quae rem totam ipsam, vero a eos
+        </p>
+        <button class="btn btn-primary text-white">Buy Now</button>
+      </div>
+      <div
+        class="daily-deal2 text-center p-3"
+        style="background-color: rgb(97, 160, 171);"
+      >
+        <h1 class="text-primary">Hurry Up</h1>
+        <h2>Daily Deal Of The Day</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+          officiis eveniet delectus quae rem totam ipsam, vero a eos
+        </p>
+        <button class="btn btn-primary text-white">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="container-md main-body-content4 my-5">
+      <h1 class="text-center">Our Latest News</h1>
+      <p class="text-center">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero ipsum
+        voluptates <br />Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit
+      </p>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/istockphoto-1227120821-170667a.jpg"
+              class="card-img-top"
+              alt=""
+              width="100%"
+              height="180px"
+            />
+            <div class="card-body">
+              <div class="px-3 date-comment">
+                <span class="date"
+                  ><i class="fa-solid fa-calendar text-primary"></i> January
+                  18,2019</span
+                >
+                <span class="comment"
+                  ><i class="fa-solid fa-comment text-primary"></i> 0
+                  comments</span
+                >
+              </div>
+              <div class="p-3">
+                <h4 class="card-title">Hospital Infectious Waste</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Deserunt hic debitis perspiciatis excepturi magni repudiandae
+                  deleniti alias, vitae praesentium. Cupiditate adipisci ea non
+                  temporibus ipsam officia in quasi provident aperiam.
+                </p>
+                <span
+                  ><i class="fa-solid fa-tag text-primary"></i>
+                  Blog,Message</span
+                ><br />
+                <button class="btn btn-primary rounded-pill my-2">
+                  Read More >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/istockphoto-1310827140-170667a.jpg"
+              class="card-img-top"
+              alt=""
+              width="100%"
+              height="180px"
+            />
+            <div class="card-body">
+              <div class="px-3 date-comment">
+                <span class="date"
+                  ><i class="fa-solid fa-calendar text-primary"></i> January
+                  18,2019</span
+                >
+                <span class="comment"
+                  ><i class="fa-solid fa-comment text-primary"></i> 0
+                  comments</span
+                >
+              </div>
+              <div class="p-3">
+                <h4 class="card-title">Types of Scissors</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Deserunt hic debitis perspiciatis excepturi magni repudiandae
+                  deleniti alias, vitae praesentium. Cupiditate adipisci ea non
+                  temporibus ipsam officia in quasi provident aperiam.
+                </p>
+                <span
+                  ><i class="fa-solid fa-tag text-primary"></i> Baby
+                  Care,Youtube</span
+                ><br />
+                <button class="btn btn-primary rounded-pill my-2">
+                  Read More >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/istockphoto-1410057012-170667a.jpg"
+              class="card-img-top"
+              alt=""
+              width="100%"
+              height="180px"
+            />
+            <div class="card-body">
+              <div class="px-3 date-comment">
+                <span class="date"
+                  ><i class="fa-solid fa-calendar text-primary"></i> January
+                  18,2019</span
+                >
+                <span class="comment"
+                  ><i class="fa-solid fa-comment text-primary"></i> 0
+                  comments</span
+                >
+              </div>
+              <div class="p-3">
+                <h4 class="card-title">Blood Pressure Machine</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Deserunt hic debitis perspiciatis excepturi magni repudiandae
+                  deleniti alias, vitae praesentium. Cupiditate adipisci ea non
+                  temporibus ipsam officia in quasi provident aperiam.
+                </p>
+                <span
+                  ><i class="fa-solid fa-tag text-primary"></i>
+                  Creative,Design</span
+                ><br />
+                <button class="btn btn-primary rounded-pill my-2">
+                  Read More >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Body contents ends-->
+
+    <!--Footer starts-->
+    <div class="container-fluid footer-container">
+      <div class="container-md">
+        <div class="row text-white py-4">
+          <div class="col-md-3">
+            <h5>Contact Us</h5>
+            <div class="py-2">
+              <p class="text-white">Adress:<br />Telephone:<br />Email:</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h5>Our Products</h5>
+            <div class="py-2">
+              <p class="text-white">
+                Medical Equip<br />Laboratory Equip<br />Comsumables<br />Oxygen
+                Concentrator<br />Hospital Furnitures
+              </p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h5>Useful Links</h5>
+            <div class="py-2">
+              <p class="text-white">
+                About Us<br />Products<br />Latest News<br />Contact Us
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <form action="">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+              <button class="btn btn-primary rounded-pill px-3 my-3 float-end">
+                Suscribe Us!
+              </button>
+            </form>
+            <div class="text-primary" style="font-size: 45px;">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer ends-->
+    <script src="fonts/fontawesome-free-6.1.2-web/js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
